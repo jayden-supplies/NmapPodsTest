@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
     # 소스 및 헤더 파일 경로
     s.source_files = "NMapsMap/**/*.{h,m,swift}"
     s.public_header_files = "NMapsMap/**/*.h"
-    s.dependency "NMapsGeometry", "~> 1.0"
+    s.dependency "NMapsGeometry", "1.0.2"
   end
