@@ -12,5 +12,6 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = "NMapsMap/framework/NMapsMap.xcframework"
     # 헤더 파일 경로
     s.public_header_files = "NMapsMap/framework/NMapsMap.xcframework/**/*.h"
+    s.dependency "NMapsGeometry", "~> 1.0"
     s.ios.deployment_target = "12.0"
   end
