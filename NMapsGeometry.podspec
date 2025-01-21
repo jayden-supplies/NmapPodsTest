@@ -7,10 +7,10 @@ Pod::Spec.new do |s|
     s.license      = "MIT"
     s.author       = { "Naver Corporation" => "your-email@example.com" }
     s.source       = { :git => "https://github.com/jayden-supplies/NMapPodsTest.git", :branch => "main"}
-    s.source_files = "NMapsGeometry/**/*.{h,m,swift}"
     s.ios.deployment_target = "12.0"
     # xcframework 포함
     s.vendored_frameworks = "NMapsGeometry/framework/NMapsGeometry.xcframework"
-    # 헤더 파일 경로
-    s.public_header_files = "NMapsGeometry/framework/NMapsGeometry.xcframework/**/*.h"
+    # 소스 및 헤더 파일 경로
+    s.source_files = "NMapsGeometry/**/*.{h,m,swift}"
+    s.public_header_files = "NMapsGeometry/**/*.h"
   end
